@@ -792,6 +792,7 @@
 // @match		http://imgao.xyz/*
 // @match		http://imgweng.xyz/*
 // @match		https://*.imgsto.com/*/*.html
+// @match		https://pics4you.net/*/*.html
 // ==/UserScript==
 
 "use strict";
@@ -1804,6 +1805,7 @@ function makeworld()
 	case "0img.ws":
 	case "pixs.cx":
 	case "kropic.com":
+	case "pics4you.net":
 		j = true;
 		dp=true;
 		f = document.querySelectorAll("input[type='submit']");
